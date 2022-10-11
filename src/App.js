@@ -3,11 +3,11 @@ import './App.css';
 import Toast from './components/Toast';
 import {useRef} from 'react'
 import React from 'react';
-import Toster from './toster.jpg'
+
 function App() {
   let toast=useRef()
   
-  let[msg,setMsg]=React.useState('Hello Form Toast')
+  let[msg,setMsg]=React.useState('Hello There')
   let[type,setType]=React.useState('successful')
 
   return (
