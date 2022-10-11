@@ -3,7 +3,7 @@ import './App.css';
 import Toast from './components/Toast';
 import {useRef} from 'react'
 import React from 'react';
-
+import Toster from './toster.jpg'
 function App() {
   let toast=useRef()
   
